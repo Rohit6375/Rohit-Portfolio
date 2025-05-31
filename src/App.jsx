@@ -19,7 +19,7 @@ function App() {
   return (
    <>
    <main className='font-body'>
-    <div >
+    <div className="w-full overflow-hidden">
       <NavbarMain />
     </div>
     
