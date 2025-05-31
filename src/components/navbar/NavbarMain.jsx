@@ -9,8 +9,8 @@ const NavbarMain = () => {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className="w-full fixed z-20 top-0 flex justify-center mt-2 px-2 sm:px-4">
-      <div className="flex items-center justify-between bg-black border-[0.5px] border-orange rounded-full px-4 py-3 max-w-[95%] sm:max-w-[60%] lg:max-w-[1200px] mx-auto overflow-hidden">
+    <nav className="w-full fixed z-20 left-0 top-0 px-2 sm:px-4 mt-2">
+      <div className="mx-auto w-[90%] sm:w-[80%] lg:max-w-[1200px] flex justify-between items-center px-4 py-3 bg-black border border-orange rounded-full">
         
         {/* Logo */}
         <NavbarLogo />
