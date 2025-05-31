@@ -20,8 +20,8 @@ const NavbarMain = () => {
       
         <NavbarBtn/>
         </div>
-        <div className='flex lg:hidden sm:block p-6 bg-black items-center justify-center rounded-full border-[0.5x] border-orange'>
-            <button className='text-2xl p-3 border border-orange rounded-full text-white' onClick={toggleMenu}><GiHamburgerMenu /></button>
+        <div className='flex lg:hidden sm:block p-2 bg-black items-center justify-center rounded-full border-[0.5x] border-orange'>
+            <button className='text-2xl p-2 border border-orange rounded-full text-white' onClick={toggleMenu}><GiHamburgerMenu /></button>
             
         </div> 
     </nav>
