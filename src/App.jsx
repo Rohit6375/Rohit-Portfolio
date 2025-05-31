@@ -19,7 +19,10 @@ function App() {
   return (
    <>
    <main className='font-body'>
-    <NavbarMain/>
+    <div >
+      <NavbarMain />
+    </div>
+    
     <HeroMain/>
     <HeroGradient/>
     <SubHeroSection/>
