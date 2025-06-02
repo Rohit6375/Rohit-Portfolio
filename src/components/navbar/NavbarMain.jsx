@@ -12,20 +12,19 @@ const NavbarMain = () => {
     <nav className="w-full fixed z-20 left-0 top-0 px-2 sm:px-4 mt-2">
       <div className="flex items-center justify-between bg-black border-[0.5px] border-orange rounded-full px-4 py-3 max-w-[95%] sm:max-w-[70%] lg:max-w-[1200px] mx-auto overflow-hidden">
         
-     
         <NavbarLogo />
 
-    
-        <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
+        {/* Middle: Links */}
+        <div className={`${menuOpen ? "block" : "hidden"} lg:block`}>
           <NavbarLinks />
         </div>
 
-        {/* Hire Me Button + Hamburger grouped */}
+        {/* Right: Hire Me Button + Hamburger */}
         <div className="flex items-center gap-2">
           <NavbarBtn />
-          
-          {/* Hamburger - visible only on mobile */}
-          <div className="lg:hidden sm:block">
+
+          {/* Hamburger: Visible on <lg only */}
+          <div className="lg:hidden">
             <button
               className="text-2xl p-2 border border-orange rounded-full text-white"
               onClick={toggleMenu}
