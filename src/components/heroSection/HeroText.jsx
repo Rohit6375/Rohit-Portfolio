@@ -13,7 +13,7 @@ const HeroText = () => {
         viewport={{once:false,amount:0}}
         className='lg:text-2xl sm:text-xl uppercase text-cyan'>Front-End WEB DEVELOPER</motion.h2>
         <motion.h1 
-        variants={fadeIn('right',0.4)}
+        variants={fadeIn('right',0.3)}
         initial='hidden'
         whileInView='show'
         viewport={{once:false,amount:0}} 
